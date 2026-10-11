@@ -17,7 +17,7 @@ Zero dependencies — built on `URLSession`, Swift Concurrency, and `CryptoKit`.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Proof-of-Human-Network/sdk-ios", from: "1.6.0"),
+    .package(url: "https://github.com/iamaihub/sdk-ios", from: "1.6.0"),
 ],
 targets: [
     .target(name: "MyApp", dependencies: [.product(name: "POHKit", package: "sdk-ios")]),
